@@ -1,0 +1,33 @@
+{
+  "name": "timo",
+  "version": "0.0.1",
+  "description": "Timer - measures elapsed time",
+  "main": "./lib/timo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/g4code/timo"
+  },
+  "keywords": [
+    "timo"
+  ],
+  "author": "Drasko Gomboc <drasko.gomboc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g4code/timo/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "dependencies": {
+    "evento": "*",
+    "underscore": "*",
+    "moment": "*"
+  }
+}
