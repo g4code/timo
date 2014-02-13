@@ -1,6 +1,6 @@
 {
   "name": "timo",
-  "version": "0.0.1",
+  "version":"0.0.1",
   "description": "Timer - measures elapsed time",
   "main": "./lib/timo.js",
   "directories": {
