@@ -49,5 +49,19 @@ describe("timo", function(){
             timo.timer.stop  = 1393232055135;
             timo.duration().should.equal("49 minutes 26 seconds ");
         });
+        
+        it("shoud measure elapsed time in one minute", function() {
+            
+            timo.timer.start = 1393229088423;
+            timo.timer.stop  = 1393229188423;
+            timo.duration().should.equal("1 minute 40 seconds ");
+        });
+        
+        it("shoud measure elapsed time in one second", function() {
+            
+            timo.timer.start = 1393229088423;
+            timo.timer.stop  = 1393229089425;
+            timo.duration().should.equal("1 second 2 milliseconds ");
+        });
     });
 });
